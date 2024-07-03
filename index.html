@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Opening Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="-responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="col-md-2"></div>
+    <div class="container col-md-8">
+        <div class="form">
+            <form action="./database.html">
+                <h3>BANK ACCOUNT OPENING FORM</h3>
+                <label for="accType"><b>Choose account type</b></label><br>
+                <input type="radio" id="current" name="accType">
+                <label for="current">Current</label>
+        
+                <input type="radio" id="savings" name="accType">
+                <label for="savings">Savings</label>
+        
+                <input type="radio" id="zero-balance" name="accType">
+                <label for="zero-balance">Zero balance</label><br>
+                <hr>
+        
+                <h4>Basic Informations</h4>
+        
+                <label for="firstName"><b>Full Name:</b></label><br>
+                <label for="firstName">First</label>
+                <input type="text" placeholder="Enter your first name" id="firstName">
+        
+                <label for="lastName">Last</label>
+                <input type="text" placeholder="Enter your last name" id="lastName"><br>
+        
+                <label for="fatherName"><b>Father's Name:</b></label><br>
+                <input type="text" placeholder="Enter your father's name" id="fatherName"><br>
+        
+                <label for="address"><b>Address:</b></label><br>
+                <textarea name="address" id="address" placeholder="Enter your complete address"></textarea><br>
+        
+                <label for="gender"><b>Choose your gender:</b></label><br>
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label>
+        
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+        
+                <input type="radio" id="other" name="gender">
+                <label for="other">Other</label><br>
+        
+                <label for="dob"><b>Enter DOB</b></label><br>
+                <input type="date" id="dob"><br>
+        
+                <label for="category"><b>Category:</b></label><br>
+                <input type="radio" id="general" name="category">
+                <label for="general">General</label>
+        
+                <input type="radio" id="stsc" name="category">
+                <label for="stsc">ST/SC</label>
+        
+                <input type="radio" id="otherCat" name="category">
+                <label for="otherCat">Other</label><br>
+        
+                <label for="occupation"><b>Choose occupation:</b></label><br>
+                <input type="radio" id="salaried" name="occupation">
+                <label for="salaried">Salaried</label>
+        
+                <input type="radio" id="self-employed" name="occupation">
+                <label for="self-employed">Self Employed</label>
+        
+                <input type="radio" id="businessman" name="occupation">
+                <label for="businessman">Businessman</label>
+        
+                <input type="radio" id="student" name="occupation">
+                <label for="student">Student</label>
+        
+                <input type="radio" id="otherOccupation" name="occupation">
+                <label for="otherOccupation">Other</label>
+                <input type="text" name="occupation" placeholder="specify">
+                <hr>
+        
+                <h4>KYC</h4>
+        
+                <label for="aadhar"><b>Aadhar No.</b></label><br>
+                <input type="text" id="aadhar"><br>
+        
+                <label for="pan"><b>PAN No.</b></label><br>
+                <input type="text" id="pan"><br>
+        
+                <label for="poa"><b>POA(Proof Of Address)</b></label><br>
+                <input type="radio" id="poa-aadhar" name="poa"></button>
+                <label for="poa-aadhar">Aadhar</label><br>
+        
+                <input type="radio" id="poa-ration" name="poa"></button>
+                <label for="poa-ration">Ration card</label>
+                <input type="text" placeholder="enter ration card number"><br>
+        
+                <input type="radio" id="poa-elecBill" name="poa"></button>
+                <label for="poa-elecBill">Electricity bill</label>
+                <input type="text" placeholder="enter consumer id"><br>
+                <hr>
+        
+                <h4>Services</h4>
+        
+                <label for="service"><b>Choose the services you want</b></label><br>
+                <input type="checkbox" id="atm" name="service">
+                <label for="atm">ATM</label><br>
+        
+                <input type="checkbox" id="cheque" name="service">
+                <label for="cheque">Cheque Book</label><br>
+        
+                <input type="checkbox" id="sms" name="service">
+                <label for="sms">SMS alert</label>
+
+                <hr>
+        
+                <h4>Terms & Conditions</h4>
+                <p><b>General Rules & Regulations:</b><br>
+                    I (In this context, "I", "my" and "me" refers to all holders of the account) 
+                    have read and understood the below T&C and understand that any changes to the T&C 
+                    will be available on the website www.axisbank.com only. <br>
+                    
+                    <b>Account opening/service provision:</b><br> 
+                    All services, including opening of the account are subject to verification of 
+                    information/documents provided by me. In the event this account is not opened, 
+                    if I/we have initially funded the account in cash for Rs. 20,000 or more, it will 
+                    be refunded to me in the form of a DD/Cheque or PO only. <br>
+                    
+                    <b>Services:</b><br> All services will be provided by Axis Bank on a best effort basis. 
+                    The complete list of services available to me will be available on www.axisbank.com If 
+                    not existing customer, I confirm if found otherwise, bank reserves the right to consolidate
+                     the customer IDs as it may decide, without any prior notice to me. <br>
+                    
+                    <b>Fees & Charges:</b><br> Fees and Charges will be applicable on my account and for other 
+                    services availed by me, as described in the Most Important Document/schedule of charges 
+                    and on the website www.axisbank.com. GST and other statutory imposts as applicable from 
+                    time to time will be levied on all fees.</p>
+                    <hr>
+        
+                <input type="checkbox" id="tnc">
+                <label for="tnc">I agree to the terms and conditions</label><br>
+        
+                <button type="submit" id="submit">Submit</button>
+                <button type="reset" id="reset">Reset</button>
+            </form>
+        </div>
+    </div>
+    <div class="col-md-2"></div>
+</body>
+</html>

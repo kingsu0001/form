@@ -45,7 +45,8 @@ input{
     background-color: transparent;
     border: 1px solid rgba(3, 18, 54, 0.888);;
     border-radius: 15px;
-    padding-right: 5%;
+    padding: 0.5% 4%;
+    margin-right: 2%;
 }
 
 input::placeholder{
@@ -62,6 +63,7 @@ textarea{
     padding-right: 5%;
     overflow: hidden;
     resize: none;
+    padding: 0.5% 4%;
 }
 
 textarea::placeholder{
@@ -98,6 +100,3 @@ button{
 #reset{
     margin: 5%;
 }
-
-
-
